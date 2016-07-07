@@ -1,0 +1,44 @@
+{
+  "about": "Participants compete to earn limited spots to the DECA Ontario Provincial Competition",
+  "multiplechoice": "10/28/2015",
+  "deadline": "10/15/2015",
+  "cost": "Included in membership fee",
+  "regionals": [
+    {
+      "name": "Hamilton & Private Regional",
+      "date": "11/3/2015",
+      "location": "Hamilton Convention Centre",
+      "address": "1 Summers Ln, Hamilton, ON L8P 4Y2"
+    },
+    {
+      "name": "Peel Regional",
+      "date": "11/4/2015",
+      "location": "Hamilton Convention Centre",
+      "address": "1 Summers Ln, Hamilton, ON L8P 4Y2"
+    },
+    {
+      "name": "York Regional",
+      "date": "11/7/2015",
+      "location": "Pierre Elliott Trudeau High School",
+      "address": "90 Bur Oak Ave, Markham, ON L6C 2E6"
+    },
+    {
+      "name": "Waterloo Regional",
+      "date": "11/14/2015",
+      "location": "SJAM - Waterloo",
+      "address": "650 Laurelwood Dr, Waterloo, ON N2V 2V1"
+    },
+    {
+      "name": "Toronto Regional",
+      "date": "11/13/2015",
+      "location": "Cedarbrae Collegiate Institute",
+      "address": "550 Markham Rd., Toronto, ON M1H 2A2"
+    },
+    {
+      "name": "Nor-Eastern Regional",
+      "date": "11/15/2015",
+      "location": "Sinclair SS",
+      "address": "380 Taunton Rd E, Whitby, ON L1R 2K5"
+    }
+  ]
+}

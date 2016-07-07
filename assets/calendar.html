@@ -1,0 +1,58 @@
+<style>
+    @media (max-width: 550px) {
+    .big-container {
+    display: none;
+    }
+    }
+    @media (min-width: 550px) {
+    .small-container {
+    display: none;
+    }
+    }
+    /* Responsive iFrame */
+    .responsive-cal-container {
+    position: relative;
+    padding-bottom: 590px;
+    padding-top: 30px;
+    height: 0;
+    overflow: hidden;
+    }
+    .responsive-cal-container iframe,
+    .vresponsive-cal-container object,
+    .vresponsive-cal-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    }
+    /* Responsive Agenda Frame */
+    .responsive-agenda-container {
+    position: relative;
+    padding-bottom: 400px;
+    padding-top: 30px;
+    height: 0;
+    overflow: hidden;
+    }
+    .responsive-agenda-container iframe,
+    .vresponsive-agenda-container object,
+    .vresponsive-agenda-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    }
+</style>
+
+<div class="responsive-cal-container big-container">
+    <iframe src="https://www.google.com/calendar/embed?title=DECA%20Ontario&amp;showPrint=0&amp;showCalendars=0&amp;showTz=0&amp;height=600&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=kbhoi9psftfga84194ljn0hu1g%40group.calendar.google.com&amp;color=%235229A3&amp;ctz=America%2FToronto"
+            style=" border-width:0 " width="800" height="600" frameborder="0"
+            scrolling="no"></iframe>
+</div>
+
+<div class="responsive-agenda-container small-container">
+    <iframe src="https://www.google.com/calendar/embed?title=DECA%20Ontario&amp;showPrint=0&amp;showCalendars=0&amp;showTz=0&amp;height=600&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=kbhoi9psftfga84194ljn0hu1g%40group.calendar.google.com&amp;color=%235229A3&amp;ctz=America%2FToronto"
+            style=" border-width:0 " width="550" height="600" frameborder="0"
+            scrolling="no"></iframe>
+</div>
