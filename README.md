@@ -8,11 +8,13 @@ This DECA Ontario Android app was originally intented to be officially published
 The following features were implemented:
 * A home screen that links to the other subpages of the app
 * Information is pulled from a JSON formatted file, and is pulled from a webserver and cached locally
-* A social media feed that shows the most recent tweets from the account
+* A social media feed that shows the most recent tweets from the DECA ONtario twitter account
 * A list of the DECA Ontario executives, each with their own page
-* 
+* A list of sortable events, each of which shows 
 
 ### Technical Challenges
 With every project I take on I always try to expand my working knowledge and implement featrues that I have never worked with before. Here is a breakdown of some of the technical challenges that I faced as I created this app.
+* Fading images
 * Networking
-* Ease of editing
+* Ease of editing (JSON)
+* 
