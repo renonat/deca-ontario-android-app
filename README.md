@@ -18,9 +18,8 @@ The following features were implemented:
 
 ### Technical Challenges
 With every project I take on I always try to expand my working knowledge and implement featrues that I have never worked with before. Here is a breakdown of some of the technical challenges that I faced as I created this app.
-* Fading images
-* Background networking and file cache'ing / dynamic reloading
 * Ease of editing (JSON)
+* Background networking and file caching / dynamic reloading
 
 ### Timeframe
 This app was worked on from late July 2015 to mid November 2015. Progress slowed down significantly because of school and extracurricular committments, especially the fact that I was running my own school's DECA chapter at the same time.
