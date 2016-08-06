@@ -14,7 +14,7 @@ The following features were implemented:
 * A list of sortable events, each of which have their own information page and a unique identification bubble
 * A calendar page which shows a WebView with a custom Google Calendar view
 * A regionals screen, which allows the user to select their regional competition from a dropdown, and saves their preference
-* A dynamic provincials dropdown bubble, which not only links to an about screen,, but allows the dynamic loading of various web links.
+* A dynamic provincials dropdown bubble, which not only links to an about screen, but allows the dynamic loading of various web links.
 
 ### Technical Challenges
 With every project I take on I always try to expand my working knowledge and implement featrues that I have never worked with before. Here is a breakdown of some of the technical challenges that I faced as I created this app.
