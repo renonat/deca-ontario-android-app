@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/my_awesome_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/my_awesome_toolbar">
+
+        <LinearLayout
+            android:id="@+id/event_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ca.deca.decaontarioapp.ui.views.AvatarListItem
+                android:id="@+id/event_description"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/flat_button_grey"
+                android:visibility="gone"
+                app:avatarColor="@color/material_amber_500"/>
+
+            <ca.deca.decaontarioapp.ui.views.AvatarListItem
+                android:id="@+id/event_members"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/flat_button_grey"
+                android:visibility="gone"
+                app:avatarColor="@color/material_amber_500"
+                app:avatarSrc="@drawable/ic_user"/>
+
+            <ca.deca.decaontarioapp.ui.views.AvatarListItem
+                android:id="@+id/event_guidelines"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/flat_button_grey"
+                android:visibility="gone"
+                app:avatarColor="@color/material_green_500"
+                app:avatarSrc="@drawable/ic_guidelines"/>
+
+            <ca.deca.decaontarioapp.ui.views.AvatarListItem
+                android:id="@+id/event_written"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/flat_button_grey"
+                android:visibility="gone"
+                app:avatarColor="@color/material_indigo_500"
+                app:avatarSrc="@drawable/ic_document"/>
+
+            <ca.deca.decaontarioapp.ui.views.AvatarListItem
+                android:id="@+id/event_presentation"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/flat_button_grey"
+                android:visibility="gone"
+                app:avatarColor="@color/material_red_500"
+                app:avatarSrc="@drawable/ic_clock"/>
+
+            <ca.deca.decaontarioapp.ui.views.AvatarListItem
+                android:id="@+id/event_preptime"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/flat_button_grey"
+                android:visibility="gone"
+                app:avatarColor="@color/material_red_500"
+                app:avatarSrc="@drawable/ic_clock"/>
+
+            <ca.deca.decaontarioapp.ui.views.AvatarListItem
+                android:id="@+id/event_sample"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/flat_button_grey"
+                android:visibility="gone"
+                app:avatarColor="@color/material_amber_500"
+                app:avatarSrc="@drawable/ic_star"/>
+
+            <ca.deca.decaontarioapp.ui.views.AvatarListItem
+                android:id="@+id/event_rubric"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/flat_button_grey"
+                android:visibility="gone"
+                app:avatarColor="@color/material_orange_500"
+                app:avatarSrc="@drawable/ic_checkmark"/>
+
+            <ca.deca.decaontarioapp.ui.views.AvatarListItem
+                android:id="@+id/event_exam"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/flat_button_grey"
+                android:visibility="gone"
+                app:avatarColor="@color/material_purple_500"
+                app:avatarSrc="@drawable/ic_pencil"/>
+
+            <ca.deca.decaontarioapp.ui.views.AvatarListItem
+                android:id="@+id/event_performance_indicators"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/flat_button_grey"
+                android:visibility="gone"
+                app:avatarColor="@color/material_teal_500"
+                app:avatarSrc="@drawable/ic_list"/>
+
+            <ca.deca.decaontarioapp.ui.views.AvatarListItem
+                android:id="@+id/event_extras"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/flat_button_grey"
+                android:visibility="gone"
+                app:avatarColor="@color/material_pink_500"
+                app:avatarSrc="@drawable/ic_plus"/>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

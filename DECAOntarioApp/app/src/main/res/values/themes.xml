@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Base" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:colorBackground">@color/background</item>
+        <item name="android:alertDialogTheme">@style/Theme.AppCompat.Light.Dialog.Alert</item>
+    </style>
+
+    <style name="Base.DECA" parent="Base">
+        <item name="colorPrimary">@color/deca_blue</item>
+        <item name="colorPrimaryDark">@color/deca_dark_blue</item>
+        <item name="colorAccent">@color/material_red_600</item>
+    </style>
+
+    <style name="Widget.Base.DECA.HeaderBar.Spinner" parent="Widget.AppCompat.Light.Spinner.DropDown.ActionBar">
+        <item name="android:background">?android:selectableItemBackground</item>
+        <item name="android:dropDownSelector">?android:selectableItemBackground</item>
+        <item name="android:divider">@null</item>
+    </style>
+
+</resources>

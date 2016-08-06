@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/my_awesome_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_margin="8dp"
+            android:layout_toLeftOf="@+id/exec_profile_image"
+            android:layout_toStartOf="@+id/exec_profile_image"
+            android:scrollbarStyle="outsideInset">
+
+            <TextView
+                android:id="@+id/exec_profile_bio"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="New Text"
+                android:textColor="@color/text"
+                android:textSize="@dimen/text_size_body"/>
+        </ScrollView>
+
+        <ImageView
+            android:id="@+id/exec_profile_image"
+            android:layout_width="120dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:scaleType="centerCrop"/>
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical">
+
+    <FrameLayout
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_centerVertical="true"
+        android:layout_margin="16dp">
+
+        <View
+            android:id="@+id/listitem_circle_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+        <ImageView
+            android:id="@+id/iv_listitem_circle"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:id="@+id/listitem_avatar_textview"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_gravity="center"
+            android:textColor="@color/white"
+            android:ellipsize="none"
+            android:gravity="center"
+            android:singleLine="true"/>
+
+    </FrameLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginLeft="72dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginStart="72dp"
+        android:layout_marginTop="16dp"
+        android:gravity="center_vertical"
+        android:minHeight="40dp">
+
+        <TextView
+            android:id="@+id/listitem_main_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/text"
+            android:textSize="@dimen/text_size_subhead"
+            android:ellipsize="end"/>
+
+        <TextView
+            android:id="@+id/listitem_sub_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/listitem_main_textview"
+            android:textColor="@color/textsecondary"
+            android:textSize="@dimen/text_size_body"
+            android:ellipsize="end"/>
+    </RelativeLayout>
+
+    <View
+        android:id="@+id/listitem_divider"
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="72dp"
+        android:background="@color/divider"
+        android:visibility="gone"/>
+</RelativeLayout>

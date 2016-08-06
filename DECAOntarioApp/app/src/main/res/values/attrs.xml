@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="AvatarListItem">
+        <attr name="avatarSrc" format="reference"/>
+        <attr name="avatarColor" format="color"/>
+        <attr name="avatarText" format="string"/>
+        <attr name="textMain" format="string"/>
+        <attr name="textSub" format="string"/>
+    </declare-styleable>
+
+</resources>
