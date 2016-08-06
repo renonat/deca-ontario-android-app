@@ -18,8 +18,18 @@ The following features were implemented:
 
 ### Technical Challenges
 With every project I take on I always try to expand my working knowledge and implement featrues that I have never worked with before. Here is a breakdown of some of the technical challenges that I faced as I created this app.
-* Ease of editing (JSON)
-* Background networking and file caching / dynamic reloading
+
+##### Ease of editing (JSON)
+* In order to allow the data to be easily editted from a remote location (server) by people with low amounts of technical experience, all infromation used in the app was chosen to be put in JSON format.
+* A guide to JSON and explanation of every file was to be made, with the potential of a web interface to come in the future.
+* This was important, because the data in the app would need to change at least every year as events, competitions, and the executive team change.
+##### Background networking and file caching / dynamic reloading
+* The main issue in this app was the need to balance offline usage with the ability to update the information in the app remotely.
+* The first step in this solution was to have default JSON files saved within the app, for intial display. 
+* The next challenge was to download the new files from the web and cache them to the device. The cache is first created by copying the aforementioned default files. Then the app pulls the new files from the web and cache's them in place of the default files. Thsi happens each time the app is loaded.
+* Sometimes caches can be cleared, due to user choice or to memory restrictions, so the app is always checking for the integrity of the cache (through a cache flag file), and will reload if something is amiss.
+* Since the app is downloading the files in the background, I needed a way to notify the various Activities to reload their data when the file was finished downloading. For this I used the EventBus library, to sent notifications to specific Activities.
+* All of these actions were compiled in one DataSingleton class that managed the downloading, cahing, parsing, and notifying in relation to JSON files.
 
 ### Timeframe
 This app was worked on from late July 2015 to mid November 2015. Progress slowed down significantly because of school and extracurricular committments, especially the fact that I was running my own school's DECA chapter at the same time.
