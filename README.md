@@ -16,6 +16,12 @@ The following features were implemented:
 * A regionals screen, which allows the user to select their regional competition from a dropdown, and saves their preference
 * A dynamic provincials dropdown bubble, which not only links to an about screen, but allows the dynamic loading of various web links.
 
+| Home Screen | About DECA | About Connect | About Executive Officers | Executive Officer Detail |
+|---|---|---|---|---|
+| <img src="https://github.com/renonat/deca-ontario-android-app/blob/master/images/MainScreen.png?raw=true" width="150"> | <img src="https://github.com/renonat/deca-ontario-android-app/blob/master/images/AboutDECA.png?raw=true" width="150"> | <img src="https://github.com/renonat/deca-ontario-android-app/blob/master/images/Social.png?raw=true" width="150"> | <img src="https://github.com/renonat/deca-ontario-android-app/blob/master/images/ExecList.png?raw=true" width="150"> | <img src="https://github.com/renonat/deca-ontario-android-app/blob/master/images/ExecProfile.png?raw=true" width="150"> |
+| **Deadlines** | **Events** | **Event Detail** | **Regionals** | **Provincials** |
+| <img src="https://github.com/renonat/deca-ontario-android-app/blob/master/images/Deadlines.png?raw=true" width="150"> | <img src="https://github.com/renonat/deca-ontario-android-app/blob/master/images/EventsList.png?raw=true" width="150"> | <img src="https://github.com/renonat/deca-ontario-android-app/blob/master/images/EventDetail.png?raw=true" width="150"> | <img src="https://github.com/renonat/deca-ontario-android-app/blob/master/images/Regionals.png?raw=true" width="150"> | <img src="https://github.com/renonat/deca-ontario-android-app/blob/master/images/Provincials.png?raw=true" width="150">
+
 ### Technical Challenges
 With every project I take on I always try to expand my working knowledge and implement features that I have never worked with before. Here is a breakdown of some of the technical challenges that I faced as I created this app.
 
