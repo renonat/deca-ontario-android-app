@@ -33,8 +33,4 @@ With every project I take on I always try to expand my working knowledge and imp
 * All of these actions were compiled in one DataSingleton class that managed the downloading, caching, parsing, and notifying in relation to JSON files.
 
 ### Timeframe
-<<<<<<< HEAD
 This app was worked on from late July 2015 to mid November 2015. Progress slowed down significantly because of school and extracurricular commitments, especially the fact that I was running my own school's DECA chapter at the same time.
-=======
-This app was worked on from late July 2015 to mid November 2015. Progress slowed down significantly because of school and extracurricular committments, especially the fact that I was running my own school's DECA chapter at the same time.
->>>>>>> origin/master
